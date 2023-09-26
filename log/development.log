@@ -1908,3 +1908,163 @@ Processing by GreetingsController#random_greeting as HTML
 Completed 200 OK in 166ms (Views: 0.2ms | ActiveRecord: 17.0ms | Allocations: 5423)
 
 
+Started GET "/" for ::1 at 2023-09-26 15:07:21 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Users/HP/.local/share/gem/ruby/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Users/HP/.local/share/gem/ruby/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1932.1ms | Allocations: 281)
+Completed 200 OK in 2343ms (Views: 2063.8ms | ActiveRecord: 0.0ms | Allocations: 891)
+
+
+Started GET "/random_greetings" for ::1 at 2023-09-26 15:07:40 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/random_greetings"):
+  
+Started GET "/random_greeting" for ::1 at 2023-09-26 15:08:06 +0300
+Processing by GreetingsController#random_greeting as HTML
+  [1m[36mMessage Load (247.8ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `random_greeting'
+Completed 200 OK in 2042ms (Views: 0.4ms | ActiveRecord: 1429.1ms | Allocations: 3591)
+
+
+Started GET "/random_greeting" for ::1 at 2023-09-26 15:08:11 +0300
+Processing by GreetingsController#random_greeting as HTML
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `random_greeting'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.5ms | Allocations: 686)
+
+
+Started GET "/random_greeting" for ::1 at 2023-09-26 15:08:12 +0300
+Processing by GreetingsController#random_greeting as HTML
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `random_greeting'
+Completed 200 OK in 24ms (Views: 0.2ms | ActiveRecord: 0.5ms | Allocations: 686)
+
+
+Started GET "/random_greeting" for ::1 at 2023-09-26 15:08:31 +0300
+Processing by GreetingsController#random_greeting as HTML
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `random_greeting'
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.5ms | Allocations: 686)
+
+
+Started GET "/random_greeting" for ::1 at 2023-09-26 15:08:32 +0300
+Processing by GreetingsController#random_greeting as HTML
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `random_greeting'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 686)
+
+
+Started GET "/random_greeting" for ::1 at 2023-09-26 15:08:35 +0300
+Processing by GreetingsController#random_greeting as HTML
+  [1m[36mMessage Load (0.7ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `random_greeting'
+Completed 200 OK in 10ms (Views: 0.3ms | ActiveRecord: 0.7ms | Allocations: 686)
+
+
+Started GET "/random_greeting" for ::1 at 2023-09-26 15:08:36 +0300
+Processing by GreetingsController#random_greeting as HTML
+  [1m[36mMessage Load (1.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `random_greeting'
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 1.4ms | Allocations: 685)
+
+
+Started GET "/random_greeting" for ::1 at 2023-09-26 15:08:39 +0300
+Processing by GreetingsController#random_greeting as HTML
+  [1m[36mMessage Load (1.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `random_greeting'
+Completed 200 OK in 11ms (Views: 0.4ms | ActiveRecord: 1.3ms | Allocations: 686)
+
+
+Started GET "/random_greeting" for ::1 at 2023-09-26 15:08:40 +0300
+Processing by GreetingsController#random_greeting as HTML
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `random_greeting'
+Completed 200 OK in 42ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 686)
+
+
+Started GET "/random_greeting" for ::1 at 2023-09-26 15:08:43 +0300
+Processing by GreetingsController#random_greeting as HTML
+  [1m[36mMessage Load (0.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `random_greeting'
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 0.6ms | Allocations: 686)
+
+
+Started GET "/random_greeting" for ::1 at 2023-09-26 15:08:43 +0300
+Processing by GreetingsController#random_greeting as HTML
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `random_greeting'
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.5ms | Allocations: 685)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (4.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (9.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMessage Create (76.4ms)[0m  [1m[32mINSERT INTO "messages" ("text", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["text", "Hello"], ["created_at", "2023-09-26 12:13:01.398304"], ["updated_at", "2023-09-26 12:13:01.398304"]]
+  [1m[36mTRANSACTION (3.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMessage Create (0.7ms)[0m  [1m[32mINSERT INTO "messages" ("text", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["text", "How are you?"], ["created_at", "2023-09-26 12:13:01.521317"], ["updated_at", "2023-09-26 12:13:01.521317"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMessage Create (0.7ms)[0m  [1m[32mINSERT INTO "messages" ("text", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["text", "How are you doing?"], ["created_at", "2023-09-26 12:13:01.531806"], ["updated_at", "2023-09-26 12:13:01.531806"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMessage Create (0.8ms)[0m  [1m[32mINSERT INTO "messages" ("text", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["text", "Hey John, how are you doing?"], ["created_at", "2023-09-26 12:13:01.544532"], ["updated_at", "2023-09-26 12:13:01.544532"]]
+  [1m[36mTRANSACTION (8.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMessage Create (0.8ms)[0m  [1m[32mINSERT INTO "messages" ("text", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["text", "What are you doing?"], ["created_at", "2023-09-26 12:13:01.563351"], ["updated_at", "2023-09-26 12:13:01.563351"]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/random_greeting" for ::1 at 2023-09-26 15:13:30 +0300
+Processing by GreetingsController#random_greeting as HTML
+  [1m[36mMessage Load (1.0ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `random_greeting'
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 1.0ms | Allocations: 685)
+
+
+Started GET "/random_greeting" for ::1 at 2023-09-26 15:13:30 +0300
+Processing by GreetingsController#random_greeting as HTML
+  [1m[36mMessage Load (1.1ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `random_greeting'
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 1.1ms | Allocations: 685)
+
+
+Started GET "/random_greeting" for ::1 at 2023-09-26 15:13:32 +0300
+Processing by GreetingsController#random_greeting as HTML
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `random_greeting'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.5ms | Allocations: 685)
+
+
+Started GET "/random_greeting" for ::1 at 2023-09-26 15:13:32 +0300
+Processing by GreetingsController#random_greeting as HTML
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `random_greeting'
+Completed 200 OK in 19ms (Views: 0.2ms | ActiveRecord: 0.5ms | Allocations: 686)
+
+
+Started GET "/random_greeting" for ::1 at 2023-09-26 15:13:34 +0300
+Processing by GreetingsController#random_greeting as HTML
+  [1m[36mMessage Load (0.9ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `random_greeting'
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms | Allocations: 686)
+
+
+Started GET "/random_greeting" for ::1 at 2023-09-26 15:13:34 +0300
+Processing by GreetingsController#random_greeting as HTML
+  [1m[36mMessage Load (0.7ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `random_greeting'
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.7ms | Allocations: 686)
+
+
+Started GET "/random_greeting" for ::1 at 2023-09-26 15:13:37 +0300
+Processing by GreetingsController#random_greeting as HTML
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `random_greeting'
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 685)
+
+
+Started GET "/random_greeting" for ::1 at 2023-09-26 15:13:37 +0300
+Processing by GreetingsController#random_greeting as HTML
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `random_greeting'
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 685)
+
+
